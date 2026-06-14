@@ -14,11 +14,13 @@ namespace CollegeManagement.API.Configurations
 
             // --- Register Services ---
             services.AddScoped<IAuthService, AuthService>();
-       
+            services.AddScoped<ICollegeService, CollegeService>();
 
             // --- Register Repositories ---
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICollegeRepository, CollegeRepository>();
 
+            
             services.AddScoped<JwtTokenGenerator>();
 
         }

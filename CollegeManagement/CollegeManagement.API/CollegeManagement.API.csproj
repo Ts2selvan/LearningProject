@@ -27,7 +27,6 @@
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Data\" />
-    <Folder Include="Middleware\" />
   </ItemGroup>
 
 </Project>
